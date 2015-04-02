@@ -1,0 +1,11 @@
+title = "Blog post"
+url = "/blog/post/:slug"
+layout = "default"
+description = "A Blog post, extensible blogging platform for October CMS."
+hidden = "0"
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+==
+{% component 'blogPost' %}

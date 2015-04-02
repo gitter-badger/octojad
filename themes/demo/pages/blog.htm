@@ -1,0 +1,33 @@
+title = "Blog"
+url = "/blog"
+layout = "default"
+description = "A simple, extensible blogging platform for October CMS."
+hidden = "0"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = "10"
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "{{ :slug }}"
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = "1"
+categoryPage = "blog/category"
+==
+<div class="jumbotron">
+    <div class="container">
+        {% content "blog.htm" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-8">
+        {% component 'blogPosts' %}
+    </div>
+    <div class="col-sm-4">
+        {% component 'blogCategories' %}
+    </div>
+</div>
