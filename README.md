@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="http://static1.squarespace.com/static/53e9223be4b081b6fd90f0db/t/5457e33ce4b0f488a1015d8c/1415053917320/?format=500w" alt="JAD Panama" />
+    <img src="http://static1.squarespace.com/static/53e9223be4b081b6fd90f0db/t/5457e33ce4b0f488a1015d8c/1415053917320/?format=250w" alt="JAD Panama" />
 </p>
 
 Este repositorio es parte del proyecto [OctoJAD](http://jadpanama.com) que es un sistema de administración de contenido y framework de desarrollo para plataforma web.
