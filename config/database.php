@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
+            'host'      => '127.6.112.130',
             'port'      => '',
-            'database'  => 'october',
-            'username'  => 'root',
-            'password'  => 'Mateo2819',
+            'database'  => 'jad',
+            'username'  => 'admin5Zx7i3y',
+            'password'  => 'VjJKR7RCaRg-',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
