@@ -7,6 +7,8 @@ Este repositorio es parte del proyecto [OctoJAD](http://jadpanama.com) que es un
 
 ### Foundation library
 
+[![Join the chat at https://gitter.im/jovib/octojad](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jovib/octojad?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The CMS uses [Laravel](http://laravel.com) as a foundation PHP framework.
 
 ### Contact
