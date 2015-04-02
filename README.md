@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/jovib/octojad.svg?branch=master)](https://travis-ci.org/jovib/octojad)
 <p align="center">
     <img src="http://static1.squarespace.com/static/53e9223be4b081b6fd90f0db/t/5457e33ce4b0f488a1015d8c/1415053917320/?format=250w" alt="JAD Panama" />
 </p>

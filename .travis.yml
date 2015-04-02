@@ -1,0 +1,30 @@
+language: php
+
+php:
+- 5.4
+- 5.5
+- 5.6
+- hhvm
+
+before_script:
+- composer self-update
+- composer install --prefer-source --no-interaction --dev
+
+script: phpunit
+
+matrix:
+  allow_failures:
+  - php: 5.5
+  - php: 5.6
+  - php: hhvm
+  fast_finish: true
+
+deploy:
+  provider: openshift
+  user: jovib29@gmail.com
+  password:
+    secure: Co+uGxUC6yOLEwWVBLUG16jVQNoZy5zLiIJWL9HIo/8sb0rNWfYO3qILvhhHIPjvCx155cl8EemEUXw0gGhAQc8ar/oEOk8sC21yndIxL5mvHRTJ59mLIImQDjULos0++vvODuKPtjvN3MP2ojGKeAXzEaDlhqFjld6wIDNnZ7s=
+  app: jad
+  domain: jovib29
+  on:
+    repo: jovib/octojad
